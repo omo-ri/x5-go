@@ -37,16 +37,16 @@
 
 ## Запуск
 
-Из корня репозитория:
+Из папки урока:
 
 ```bash
-go run ./lessons/lesson02/fizzbuzz
-go run ./lessons/lesson02/stats
-go run ./lessons/lesson02/category
+go run ./fizzbuzz
+go run ./stats
+go run ./category
 ```
 
 ## Тесты
 
 ```bash
-go test -v ./lessons/lesson02/...
+go test -v ./...
 ```
